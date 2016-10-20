@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Code Test 2</title>
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="bower_components/animate.css/animate.css" />
+        <link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.css" />
+        <!-- endbower -->
+
+        <!-- inject:css -->
+        <link rel="stylesheet" href="/app/styles/main.css">
+        <!-- endinject -->  
+    </head>
+
+    <body> 
+        <div class="container">
+        
+            <p id="currentdateandtime"><p> <!-- display current date and time -->
+            <p id="scrolltext">Origin Code Academy Rocks!</p> <!-- text to be scrolled from left to right -->
+            <p id="bubblesort"></p> <!-- display bubble sorted array-->
+
+            <!-- List of beach items that will have their first word bolded -->
+            <p class="listofbeachitems">Beach Towel</p>
+            <p class="listofbeachitems">Suntan Lotion</p>
+            <p class="listofbeachitems">Mask, Fins and Snorkel</p>
+            <p class="listofbeachitems">Boogie Board</p>
+
+            <p id="click">Click Me!</p> <!-- Text that will display a different message depending on whether you single or double-click the text-->
+
+            <!-- Button that will change the background color of this div from red to green-->
+            <div id="changebackgroundstyle" style="background-color:red">
+                <p>Click the button to change the background color of this paragraph.</p>
+                <button>Change Color</button>
+            </div>    
+
+            <!-- answers to Angular JS questions -->
+
+            <p><b> How do you define an AngularJS application?</b></p>
+            <p> Create an angular module and then attach the module to the html tag of your index.html.</p>
+            <p><b>What is a controller?</b></p>
+            <p>A controller sits between the view and the data and is there to bind the data to the view</p>
+            <p><b>What does ng-model do?</b></p>
+            <p>ng-model is an Angular directive that enables HTML inputs to be bound to a controller's scope</p>
+            <p><b>What is interpolation markup?</b></p>
+            <p>Not sure. I had to web search this and it seems it is the {{}} braces?</p>
+            <p><b>What is $scope?</b></p>
+            <p>It's the glue betwen the view and the controller</p>
+            <p><b>What is dependency injection?</b></p>
+            <p>Had to research this as I definitely do not know this off the top of my head... My research shows that it is the act of injecting methods and objects that are needed by angular modules/controllers/factories/services/components/directives/filters/etc </p>
+            <p><b>What is two-way binding?</b></p>
+            <p>Using $scope (or any other Controller As alias) and ng-model to allow data to pass from the view to the controller and vice versa</p>
+            <p><b>What is 'controller as' syntax?</b></p>
+            <p>It's a way of providing a unique name to the scope of the controller in question</p>
+            <p><b>What is MV* architecture?</b></p>
+            <p>Stands for Model, View, Whatever</p>
+            <p><b>What is the difference between a service and a factory?</b></p>
+            <p>A service is an object and a factory is a function</p>
+
+        </div>     
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+        <script src="bower_components/angular-messages/angular-messages.js"></script>
+        <!-- endbower -->
+
+        <!-- inject:js -->
+        <script src="/app/app.js"></script>
+        <!-- endinject -->
+    </body>
+</html>
